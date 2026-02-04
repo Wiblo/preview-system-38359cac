@@ -67,7 +67,7 @@ export const businessInfo = {
 
   // Website
   url: "https://becksbakes.co.za",
-  logo: "/logo.png",
+  logo: "/logo.svg",
 
   // Booking (leave empty string if no booking system)
   bookingUrl: "",
