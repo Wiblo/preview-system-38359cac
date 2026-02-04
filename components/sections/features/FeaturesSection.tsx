@@ -24,29 +24,29 @@ export function FeaturesSection({ className }: FeaturesSectionProps) {
   const blocks: FeatureBlock[] = [
     {
       id: "feature-1",
-      title: "Why Choose Us",
+      title: "Fresh Daily, No Exceptions",
       description:
-        "We bring years of experience and dedication to every project. Our team is committed to delivering exceptional results that exceed your expectations. We take the time to understand your unique needs and tailor our approach accordingly.",
-      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=800&fit=crop",
-      imageAlt: "Team collaboration",
+        "We start baking before sunrise so you get the freshest koeksisters, vetkoek, and melktert every single day. Nothing sits overnight - if it's on our shelf, it was baked this morning with care and attention to traditional methods that bring out authentic South African flavors.",
+      image: "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&h=800&fit=crop",
+      imageAlt: "Fresh baked goods prepared daily",
       imagePosition: "right",
     },
     {
       id: "feature-2",
-      title: "Our Approach",
+      title: "Traditional Family Recipes",
       description:
-        "We believe in a personalized approach that puts you first. From your initial consultation to the final result, we ensure clear communication and transparency at every step. Your satisfaction is our top priority.",
-      image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&h=800&fit=crop",
-      imageAlt: "Professional consultation",
+        "Our recipes come from generations of South African bakers who knew that the best koeksisters need ice-cold syrup and the perfect melktert requires patience. We honor these time-tested methods, using quality ingredients and proper techniques to create treats that taste like home.",
+      image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=800&h=800&fit=crop",
+      imageAlt: "Traditional baking methods",
       imagePosition: "left",
     },
     {
       id: "feature-3",
-      title: "Results You Can Trust",
+      title: "A Taste of Home",
       description:
-        "Our track record speaks for itself. We have helped countless clients achieve their goals and we are ready to help you too. Experience the difference that expertise and genuine care can make.",
-      image: "https://images.unsplash.com/photo-1573497620053-ea5300f94f21?w=800&h=800&fit=crop",
-      imageAlt: "Successful results",
+        "Whether you grew up with these treats or you're discovering them for the first time, Beck's Bakes offers authentic South African flavors in the heart of Melville. From morning rusks with your coffee to special occasion hertzoggies, we bring the warmth of traditional baking to your table.",
+      image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&h=800&fit=crop",
+      imageAlt: "Traditional South African baked treats",
       imagePosition: "right",
     },
   ]

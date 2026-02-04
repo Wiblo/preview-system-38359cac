@@ -28,33 +28,33 @@ export interface FAQ {
 export const faqs: FAQ[] = [
   {
     id: "faq-1",
-    question: "What is your first frequently asked question?",
+    question: "What time do you open? When is everything freshest?",
     answer:
-      "This is the answer to your first FAQ. Provide a clear, helpful response that addresses the customer's concern. Keep it concise but complete.",
+      "We open at 6:00 AM Monday through Friday, 7:00 AM on Saturdays, and 8:00 AM on Sundays. Our first batches come out of the oven starting at 5:30 AM, so early morning is when everything is at its absolute freshest! Koeksisters and vetkoek are made throughout the day, so there's always something warm available.",
   },
   {
     id: "faq-2",
-    question: "What is your second frequently asked question?",
+    question: "Can I place an order ahead of time for pickup?",
     answer:
-      "This is the answer to your second FAQ. You can include details about your services, policies, or anything customers commonly ask about.",
+      "Absolutely! We encourage calling ahead, especially for larger orders or if you want to ensure specific items are available. Call us at +27 11 123 4567 and we'll have your order ready when you arrive. We recommend ordering at least a day in advance for special occasions or bulk orders.",
   },
   {
     id: "faq-3",
-    question: "What is your third frequently asked question?",
+    question: "Do you offer delivery in Johannesburg?",
     answer:
-      "This is the answer to your third FAQ. Consider including information about pricing, availability, or what customers can expect.",
+      "Currently, we focus on providing the best in-store experience and don't offer direct delivery. However, we're available on several delivery platforms for orders within Johannesburg. Visit us in Melville for the full experience and to pick up your treats while they're fresh!",
   },
   {
     id: "faq-4",
-    question: "What is your fourth frequently asked question?",
+    question: "How long do your baked goods stay fresh?",
     answer:
-      "This is the answer to your fourth FAQ. Address common concerns or objections that potential customers might have.",
+      "Most items are best enjoyed within 2-3 days of purchase. Koeksisters are best eaten fresh on the day of purchase. Rusks will stay crunchy for weeks when stored in an airtight container. Melktert should be refrigerated and consumed within 3 days. We recommend storing vetkoek in a paper bag and warming them up before eating for the best texture.",
   },
   {
     id: "faq-5",
-    question: "What is your fifth frequently asked question?",
+    question: "Do you cater for events or special occasions?",
     answer:
-      "This is the answer to your fifth FAQ. Include any additional information that helps customers make a decision.",
+      "Yes! We love being part of your celebrations. Whether it's a birthday, wedding, corporate event, or family gathering, we can prepare platters of koeksisters, hertzoggies, and other favorites. Contact us at least 3-5 days in advance for event orders so we can ensure we have everything ready for your special day.",
   },
 ]
 

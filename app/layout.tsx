@@ -1,8 +1,8 @@
-import { Geist, Geist_Mono } from "next/font/google"
+import { Quicksand, Nunito_Sans } from "next/font/google"
 import Script from "next/script"
 import "./globals.css"
-// import { Navbar } from "@/components/layout/Navbar"
-// import { Footer } from "@/components/layout/Footer"
+import { Navbar } from "@/components/layout/Navbar"
+import { Footer } from "@/components/layout/Footer"
 import { JsonLd, generateLocalBusinessSchema } from "@/lib/seo/json-ld"
 import { generateRootMetadata } from "@/lib/seo/metadata"
 
@@ -29,13 +29,16 @@ const previewReadyBridgeScript = `
 })()
 `
 
-const geistSans = Geist({
+const quicksand = Quicksand({
   subsets: ["latin"],
+  variable: "--font-heading",
+  display: "swap",
 })
 
-const geistMono = Geist_Mono({
+const nunitoSans = Nunito_Sans({
   subsets: ["latin"],
-  variable: "--font-geist-mono",
+  variable: "--font-body",
+  display: "swap",
 })
 
 export const metadata = generateRootMetadata()
@@ -72,13 +75,13 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={geistSans.className}>
+    <html lang="en" className={`${quicksand.variable} ${nunitoSans.variable}`}>
       <head>
         <Script id="wiblo-preview-ready" strategy="beforeInteractive">
           {previewReadyBridgeScript}
         </Script>
       </head>
-      <body className={`${geistMono.variable} antialiased`}>
+      <body className="antialiased">
         {/* Skip link for keyboard navigation */}
         <a
           href="#main-content"
@@ -90,13 +93,11 @@ export default function RootLayout({
         {/* LocalBusiness JSON-LD for SEO */}
         <JsonLd data={generateLocalBusinessSchema()} />
 
-        {/* TODO: Uncomment Navbar after customizing for the business */}
-        {/* <Navbar /> */}
+        <Navbar />
 
         <main id="main-content">{children}</main>
 
-        {/* TODO: Uncomment Footer after customizing for the business */}
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   )

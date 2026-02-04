@@ -6,30 +6,30 @@
  */
 export const businessInfo = {
   // Core Business Details
-  name: "Your Business Name",
-  tagline: "Your compelling tagline goes here",
+  name: "Beck's Bakes",
+  tagline: "Authentic South African Baked Goods",
   description:
-    "A brief description of what your business does and who you serve. This appears in the footer and meta descriptions.",
+    "Traditional South African bakery in Johannesburg offering authentic favorites including koeksisters, melktert, rusks, vetkoek, and more. Fresh baked daily with love.",
 
   // Contact Information
-  phone: "(555) 000-0000",
+  phone: "+27 11 123 4567",
   phoneSecondary: "", // Optional secondary phone number
-  email: "hello@example.com",
+  email: "hello@becksbakes.co.za",
 
   // Physical Location
   address: {
-    street: "123 Main Street",
-    area: "", // Optional: neighborhood, suite, or building name
-    city: "Your City",
-    state: "ST",
-    zip: "00000",
-    country: "US",
+    street: "45 Main Road",
+    area: "Melville", // Optional: neighborhood, suite, or building name
+    city: "Johannesburg",
+    state: "Gauteng",
+    zip: "2109",
+    country: "ZA",
   },
 
   // Coordinates for maps (optional - set to 0 if unknown)
   geo: {
-    latitude: 0,
-    longitude: 0,
+    latitude: -26.1833,
+    longitude: 28.0167,
   },
 
   // Google Maps configuration
@@ -37,44 +37,44 @@ export const businessInfo = {
     /** Google Maps Place ID (find at: https://developers.google.com/maps/documentation/places/web-service/place-id) */
     placeId: "",
     /** Display name for the location on maps */
-    locationName: "Your Business Name",
+    locationName: "Beck's Bakes - Melville",
     /** Google Maps API key (optional, for embed without place ID) */
     apiKey: "",
   },
 
   // Business Hours
   hours: {
-    monday: "9:00 AM - 5:00 PM",
-    tuesday: "9:00 AM - 5:00 PM",
-    wednesday: "9:00 AM - 5:00 PM",
-    thursday: "9:00 AM - 5:00 PM",
-    friday: "9:00 AM - 5:00 PM",
-    saturday: "Closed",
-    sunday: "Closed",
+    monday: "6:00 AM - 6:00 PM",
+    tuesday: "6:00 AM - 6:00 PM",
+    wednesday: "6:00 AM - 6:00 PM",
+    thursday: "6:00 AM - 6:00 PM",
+    friday: "6:00 AM - 6:00 PM",
+    saturday: "7:00 AM - 4:00 PM",
+    sunday: "8:00 AM - 2:00 PM",
   } as Record<string, string>,
 
   // Timezone for open/closed status calculation
-  timezone: "America/New_York",
+  timezone: "Africa/Johannesburg",
 
   // Social Media (leave empty string if not used)
   social: {
-    facebook: "",
-    instagram: "",
+    facebook: "https://facebook.com/becksbakes",
+    instagram: "https://instagram.com/becksbakes",
     twitter: "",
     linkedin: "",
     youtube: "",
   },
 
   // Website
-  url: "https://example.com",
+  url: "https://becksbakes.co.za",
   logo: "/logo.png",
 
   // Booking (leave empty string if no booking system)
-  bookingUrl: "https://example.com/book",
-  showBookingButton: true, // Set to false to hide booking buttons in navbar/footer
+  bookingUrl: "",
+  showBookingButton: false, // Set to false to hide booking buttons in navbar/footer
 
   // Optional: Price range for schema.org ($, $$, $$$, $$$$)
-  priceRange: "$$",
+  priceRange: "$",
 }
 
 // Type export for use in other files

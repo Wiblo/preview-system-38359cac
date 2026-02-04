@@ -41,8 +41,8 @@ export interface FAQSectionProps {
  * />
  */
 export function FAQSection({
-  title = "Frequently Asked Questions",
-  subtitle = "Find answers to common questions about our services and what to expect.",
+  title = "Common Questions",
+  subtitle = "Everything you need to know about ordering, pickup, and our traditional South African baked goods.",
   items,
   showContactCTA = true,
   className,

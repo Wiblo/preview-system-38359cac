@@ -24,30 +24,39 @@ export function AboutFeatures({ className }: FeaturesSectionProps) {
   const blocks: FeatureBlock[] = [
     {
       id: "value-1",
-      title: "Our Mission",
+      title: "Traditional Recipes",
       description:
-        "We are driven by a simple yet powerful mission: to help our clients achieve their goals and improve their lives. Every decision we make is guided by this commitment to your success and well-being.",
-      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=800&fit=crop",
-      imageAlt: "Team collaboration meeting",
+        "Every treat at Beck's Bakes follows authentic South African recipes passed down through generations. We never cut corners or take shortcuts — from our hand-twisted koeksisters to our perfectly spiced hertzoggies, each item is made exactly the way it should be. These aren't adaptations or modern interpretations; they're the real thing, baked with care and respect for tradition.",
+      image: "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&h=800&fit=crop",
+      imageAlt: "Traditional baking with authentic recipes",
       imagePosition: "right",
     },
     {
       id: "value-2",
-      title: "Our Values",
+      title: "Fresh Daily",
       description:
-        "Integrity, excellence, and compassion form the foundation of everything we do. We believe in treating every client with respect and providing honest, transparent service that you can trust.",
-      image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&h=800&fit=crop",
-      imageAlt: "Professional team discussion",
+        "We bake fresh every single day, starting before sunrise to ensure you get the warmest, most delicious treats possible. Our rusks are dried to perfection, our vetkoek is made fresh throughout the day, and our melktert is always creamy and cool. Nothing sits around — if it's on our counter, it was baked that morning with love and attention to detail.",
+      image: "https://images.unsplash.com/photo-1588195538326-c5b1e5b30d14?w=800&h=800&fit=crop",
+      imageAlt: "Fresh baked goods daily",
       imagePosition: "left",
     },
     {
       id: "value-3",
-      title: "Our Commitment",
+      title: "Quality Ingredients",
       description:
-        "We are committed to continuous improvement and staying at the forefront of our industry. Our team regularly participates in training and education to ensure we provide you with the best possible service.",
-      image: "https://images.unsplash.com/photo-1573497620053-ea5300f94f21?w=800&h=800&fit=crop",
-      imageAlt: "Professional development",
+        "We believe great baking starts with great ingredients. That's why we source the finest flour, butter, and spices, and never compromise on quality. Our peppermint crisp tarts use real chocolate, our koeksisters are made with pure syrup, and every batch of rusks is baked with premium ingredients that make all the difference in taste and texture.",
+      image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&h=800&fit=crop",
+      imageAlt: "Premium quality baking ingredients",
       imagePosition: "right",
+    },
+    {
+      id: "value-4",
+      title: "Authentically South African",
+      description:
+        "Beck's Bakes is proudly South African, through and through. We're not just a bakery that happens to make South African treats — we're keepers of a culinary tradition that connects people to their heritage and introduces others to the wonderful world of South African baking. From the first bite of our koeksister to the last crumb of our melktert, you'll taste the authenticity in everything we create.",
+      image: "https://images.unsplash.com/photo-1486893732792-ab0085cb2d43?w=800&h=800&fit=crop",
+      imageAlt: "Authentic South African bakery tradition",
+      imagePosition: "left",
     },
   ]
 

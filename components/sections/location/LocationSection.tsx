@@ -34,8 +34,8 @@ export interface LocationSectionProps {
  * <LocationSection title="Visit Us" bookingText="Schedule a Visit" />
  */
 export function LocationSection({
-  title = "Find Us",
-  bookingText = "Book Now",
+  title = "Visit Our Bakery",
+  bookingText = "Call to Order",
   className,
 }: LocationSectionProps) {
   const [showHours, setShowHours] = useState(false)

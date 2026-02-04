@@ -19,8 +19,8 @@ export function AboutFullSection({ className }: AboutFullSectionProps) {
           {/* Desktop Image */}
           <div className="relative hidden aspect-square w-full shrink-0 overflow-hidden rounded-4xl md:flex md:max-h-[300px] md:max-w-[300px] xl:max-h-[520px] xl:max-w-[520px]">
             <Image
-              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=800&fit=crop"
-              alt="Our team working together"
+              src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&h=800&fit=crop"
+              alt="Traditional South African bakery with fresh baked goods"
               fill
               className="object-cover"
               sizes="(max-width: 768px) 100vw, (max-width: 1280px) 300px, 520px"
@@ -33,15 +33,15 @@ export function AboutFullSection({ className }: AboutFullSectionProps) {
             {/* Heading */}
             <div className="flex w-full justify-center md:justify-start">
               <h1 className="font-heading text-balance text-center text-3xl font-bold text-foreground md:text-left md:text-4xl lg:text-5xl">
-                About Us
+                Our Story
               </h1>
             </div>
 
             {/* Mobile Image */}
             <div className="relative aspect-square w-full shrink-0 overflow-hidden rounded-4xl md:hidden">
               <Image
-                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=800&fit=crop"
-                alt="Our team working together"
+                src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&h=800&fit=crop"
+                alt="Traditional South African bakery with fresh baked goods"
                 fill
                 className="object-cover"
                 sizes="100vw"
@@ -51,22 +51,13 @@ export function AboutFullSection({ className }: AboutFullSectionProps) {
             {/* Paragraphs */}
             <div className="flex w-full flex-col gap-4">
               <p className="text-lg leading-relaxed text-muted-foreground">
-                We are a dedicated team of professionals committed to delivering
-                exceptional service and results. With years of experience in our
-                field, we have developed a deep understanding of our clients&apos;
-                needs and how to meet them effectively.
+                Beck&apos;s Bakes began with a simple dream: to bring the authentic taste of South African baking to the heart of Melville. For generations, our family has been passionate about preserving the traditional recipes that define South African comfort food — from the sweet, syrupy koeksisters to the creamy perfection of melktert.
               </p>
               <p className="text-lg leading-relaxed text-muted-foreground">
-                Our mission is to provide personalized solutions that make a real
-                difference in people&apos;s lives. We believe in building lasting
-                relationships with our clients based on trust, transparency, and
-                mutual respect.
+                Every morning before dawn, our ovens come alive with the warmth of fresh baking. We believe in doing things the old-fashioned way, taking the time to let our rusks dry properly, to twist each koeksister by hand, and to ensure every peppermint crisp tart has just the right balance of sweetness and texture.
               </p>
               <p className="text-lg leading-relaxed text-muted-foreground">
-                What sets us apart is our commitment to continuous improvement and
-                staying at the forefront of industry developments. We invest in
-                ongoing education and training to ensure we always deliver the
-                highest quality service possible.
+                Our bakery is more than just a business — it&apos;s a piece of home for South Africans living abroad, and a delicious discovery for those new to our country&apos;s rich culinary heritage. When you step into Beck&apos;s Bakes, you&apos;re not just buying baked goods; you&apos;re experiencing a tradition that has been lovingly passed down through generations.
               </p>
             </div>
           </div>

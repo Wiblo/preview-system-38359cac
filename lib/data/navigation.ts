@@ -31,7 +31,7 @@ export interface SocialLink {
  */
 export const navItems: NavItem[] = [
   { label: "Home", href: "/" },
-  { label: "Services", href: "/services" },
+  { label: "Menu", href: "/menu" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
 ]
@@ -41,7 +41,7 @@ export const navItems: NavItem[] = [
  */
 export const quickLinks: NavItem[] = [
   { label: "Home", href: "/" },
-  { label: "Services", href: "/services" },
+  { label: "Menu", href: "/menu" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
 ]

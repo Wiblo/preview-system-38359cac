@@ -15,11 +15,11 @@ const overlayOpacity = 20
 
 /** Hero content - edit these values directly */
 const heroContent = {
-  subtitle: "What We Offer",
-  title: "Our Services",
-  backgroundImage: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&h=1080&fit=crop",
-  backgroundImageAlt: "Our services",
-  ctaText: "Contact Us",
+  subtitle: "Fresh Baked Daily",
+  title: "Traditional South African Treats",
+  backgroundImage: "https://images.unsplash.com/photo-1517433670267-08bbd4be890f?w=1920&h=1080&fit=crop",
+  backgroundImageAlt: "Fresh bakery goods display",
+  ctaText: "Visit Us",
   ctaUrl: "/contact",
 }
 

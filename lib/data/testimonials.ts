@@ -50,8 +50,8 @@ export interface GoogleRating {
 export const testimonials: Testimonial[] = [
   {
     id: "1",
-    name: "Sarah M.",
-    text: "Excellent service from start to finish. The staff was professional and friendly, and I saw real results after just a few sessions. Highly recommend to anyone looking for quality care.",
+    name: "Thandi M.",
+    text: "The koeksisters here are just like my ouma used to make! I moved to Joburg from Cape Town and finding Beck's Bakes was like finding a piece of home. Fresh, authentic, and absolutely delicious every single time.",
     rating: 5,
     source: "google",
     isGoogleVerified: true,
@@ -59,8 +59,8 @@ export const testimonials: Testimonial[] = [
   },
   {
     id: "2",
-    name: "James P.",
-    text: "I've been coming here for months now and the improvement in my condition has been remarkable. The team really takes the time to understand your needs and create a personalized treatment plan.",
+    name: "James van der Merwe",
+    text: "Best rusks in Johannesburg, hands down. I buy them every week for my morning coffee. The traditional buttermilk ones remind me of my childhood on the farm. Beck's Bakes is the real deal!",
     rating: 5,
     source: "google",
     isGoogleVerified: true,
@@ -68,8 +68,8 @@ export const testimonials: Testimonial[] = [
   },
   {
     id: "3",
-    name: "Michelle K.",
-    text: "After trying several other places, I finally found a practice that actually listens. They explained everything clearly and I felt comfortable throughout the entire process.",
+    name: "Sarah K.",
+    text: "I brought my Australian friends here to try authentic South African treats and they absolutely loved it! The melktert was a huge hit. The staff are so friendly and the bakery always smells amazing. Highly recommend!",
     rating: 5,
     source: "google",
     isGoogleVerified: true,
@@ -77,21 +77,12 @@ export const testimonials: Testimonial[] = [
   },
   {
     id: "4",
-    name: "David R.",
-    text: "Great experience overall. The facility is clean and modern, appointments run on time, and the results speak for themselves. Will definitely continue my treatment here.",
+    name: "Pieter Nel",
+    text: "Finally, a bakery that makes vetkoek properly! Light, fluffy, and fresh throughout the day. The peppermint crisp tart is also incredible. This place is a Melville treasure and I tell everyone about it.",
     rating: 5,
     source: "google",
     isGoogleVerified: true,
     date: "2 months ago",
-  },
-  {
-    id: "5",
-    name: "Lisa T.",
-    text: "Very impressed with the level of care and attention. They genuinely care about their patients and it shows in everything they do.",
-    rating: 4,
-    source: "google",
-    isGoogleVerified: true,
-    date: "3 months ago",
   },
 ]
 

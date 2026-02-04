@@ -17,11 +17,11 @@ const overlayOpacity = 20
 /** Hero content - edit these values directly */
 const heroContent = {
   subtitle: `Welcome to ${businessInfo.name}`,
-  title: "Experience Relief Through Expert Chiropractic Care",
-  backgroundImage: "/images/hero-background.jpg",
-  backgroundImageAlt: "Professional chiropractic treatment room with modern equipment",
-  ctaText: "Book Your Appointment",
-  ctaUrl: businessInfo.bookingUrl || "/contact",
+  title: "Authentic South African Baking, Fresh Every Day",
+  backgroundImage: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=1920&h=1080&fit=crop",
+  backgroundImageAlt: "Fresh traditional South African baked goods displayed in a warm bakery",
+  ctaText: "Visit Us Today",
+  ctaUrl: "/contact",
 }
 
 // =============================================================================

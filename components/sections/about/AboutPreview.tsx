@@ -23,8 +23,8 @@ export function AboutPreview({ className }: AboutPreviewProps) {
           <div className="w-full md:w-1/2 lg:w-5/12">
             <div className="relative mx-auto aspect-square w-full max-w-md overflow-hidden rounded-2xl shadow-xl">
               <Image
-                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=800&fit=crop"
-                alt="Our team working together"
+                src="https://images.unsplash.com/photo-1517433670267-08bbd4be890f?w=800&h=800&fit=crop"
+                alt="Traditional South African baking at Beck's Bakes"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, (max-width: 1280px) 400px, 500px"
@@ -39,15 +39,16 @@ export function AboutPreview({ className }: AboutPreviewProps) {
             <div className="max-w-xl">
               {/* Title */}
               <h2 className="font-heading mb-6 text-3xl font-bold text-foreground md:text-4xl lg:text-5xl">
-                About Us
+                Baked with Love Since Day One
               </h2>
 
               {/* Description */}
               <p className="mb-8 text-lg leading-relaxed text-muted-foreground">
-                We are dedicated to providing exceptional service to our clients.
-                Our team of experienced professionals is committed to helping you
-                achieve your goals. With years of experience and a passion for
-                what we do, we deliver results that exceed expectations.
+                Beck&apos;s Bakes brings the authentic taste of South Africa to
+                Melville. Our traditional recipes have been perfected over years,
+                creating the koeksisters, melktert, rusks, and vetkoek that remind
+                you of home. Every morning, we bake fresh with quality ingredients
+                and genuine care, honoring the rich heritage of South African baking.
               </p>
 
               {/* Link to About Page */}
