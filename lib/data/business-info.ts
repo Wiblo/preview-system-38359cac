@@ -67,7 +67,7 @@ export const businessInfo = {
 
   // Website
   url: "https://becksbakes.co.za",
-  logo: "/logo.svg",
+  logo: "/uploads/Pro-Active-Therapy.gif",
 
   // Booking (leave empty string if no booking system)
   bookingUrl: "",
